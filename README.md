@@ -1,4 +1,6 @@
-# holman does dotfiles
+# tilowestermann does dotfiles
+
+*This is a fork of the awesome collection by [Zach Holman](http://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked) adjusted to my personal setup.*
 
 Your dotfiles are how you personalize your system. These are mine.
 
@@ -9,7 +11,7 @@ up into the main areas I used (Ruby, git, system libraries, and so on), so I
 structured the project accordingly.
 
 If you're interested in the philosophy behind why projects like these are
-awesome, you might want to [read my post on the
+awesome, you might want to [read Zach's post on the
 subject](http://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked/).
 
 ## topical
@@ -24,7 +26,7 @@ symlinked without extension into `$HOME` when you run `script/bootstrap`.
 
 A lot of stuff. Seriously, a lot of stuff. Check them out in the file browser
 above and see what components may mesh up with you.
-[Fork it](https://github.com/holman/dotfiles/fork), remove what you don't
+[Fork it](https://github.com/tilowestermann/dotfiles/fork), remove what you don't
 use, and build on what you do use.
 
 ## components
@@ -33,7 +35,7 @@ There's a few special files in the hierarchy.
 
 - **bin/**: Anything in `bin/` will get added to your `$PATH` and be made
   available everywhere.
-- **Brewfile**: This is a list of applications for [Homebrew Cask](http://caskroom.io) to install: things like Chrome and 1Password and Adium and stuff. Might want to edit this file before running any initial setup.
+- **Brewfile**: This is a list of applications for [Homebrew Cask](http://caskroom.io) to install: things like Chrome and 1Password and stuff. Might want to edit this file before running any initial setup.
 - **topic/\*.zsh**: Any files ending in `.zsh` get loaded into your
   environment.
 - **topic/path.zsh**: Any file named `path.zsh` is loaded first and is
@@ -50,7 +52,7 @@ There's a few special files in the hierarchy.
 Run this:
 
 ```sh
-git clone https://github.com/holman/dotfiles.git ~/.dotfiles
+git clone https://github.com/tilowestermann/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 script/bootstrap
 ```
@@ -74,7 +76,7 @@ said, I do use this as *my* dotfiles, so there's a good chance I may break
 something if I forget to make a check for a dependency.
 
 If you're brand-new to the project and run into any blockers, please
-[open an issue](https://github.com/holman/dotfiles/issues) on this repository
+[open an issue](https://github.com/tilowestermann/dotfiles/issues) on this repository
 and I'd love to get it fixed for you!
 
 ## thanks
