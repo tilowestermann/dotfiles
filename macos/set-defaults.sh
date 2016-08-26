@@ -21,6 +21,9 @@ sudo systemsetup -setrestartfreeze on
 # Show the ~/Library folder.
 chflags nohidden ~/Library
 
+# Disable the sound effects on boot
+sudo nvram SystemAudioVolume=" "
+
 # Set a really fast key repeat.
 defaults write NSGlobalDomain KeyRepeat -int 0
 
