@@ -19,6 +19,7 @@ brew 'zsh-completions'
 # Apps
 cask '1password'
 cask 'atom'
+cask 'calibre'
 cask 'dropbox'
 cask 'google-chrome'
 cask 'vlc'
